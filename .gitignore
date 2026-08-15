@@ -1,0 +1,18 @@
+# AI Assistant
+.agent/
+.discuss/
+
+# Env — 密钥不入库，仅模板（.env.example）入库
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+
+# Refs
+ref/
