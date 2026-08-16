@@ -5,7 +5,13 @@ from .block import (
     ToolCallBlock,
     ToolResultBlock,
 )
-from .message import Message
+from .message import (
+    Message,
+    AssistantMessage,
+    UserMessage,
+    SystemMessage,
+    ToolMessage
+)
 
 __all__ = [
     "ContentBlock",
@@ -13,5 +19,10 @@ __all__ = [
     "TextBlock",
     "ToolCallBlock",
     "ToolResultBlock",
+    
     "Message",
+    "AssistantMessage",
+    "UserMessage",
+    "SystemMessage",
+    "ToolMessage"
 ]

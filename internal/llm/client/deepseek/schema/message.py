@@ -21,10 +21,11 @@ class UserMessage:
 class AssistantMessage:
     content: Optional[str] = None
     role: str = "assistant"
+    tool_calls: Optional[list] = None
 
     # (Beta) used for prefix filling
     # prefix: bool
-    # reasoning_content: string
+    reasoning_content: Optional[str] = None
 
 
 @dataclass

@@ -3,9 +3,9 @@
 - [x] Entity
 - [~] Adaptor (只完成deepseek的适配)
 - [~] Streaming Protocol (只完成deepseek的适配)
-- [] Err
-- [] Cancel
-- [] Schema
+- [~] Err (需求不确定)
+- [~] Cancel (需求不确定)
+- [?] Schema
 
 - [] Plugin Manager
 

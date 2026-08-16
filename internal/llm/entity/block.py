@@ -16,11 +16,13 @@ class ReasoningBlock:
 class ToolCallBlock:
     name: str
     arguments: dict[str, Any]
+    id: str = ""
 
 """Tool calling's result"""
 @dataclass
 class ToolResultBlock:
     output: Any
+    tool_call_id: str = ""
 
 
 ContentBlock: TypeAlias = (
